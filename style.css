@@ -39,18 +39,18 @@ h3{
     font-weight: 700;
 }
 .top{
-    background-image: url(/img/top-banner.png);
+    background-image: url('./img/top-banner.png');
     background-repeat: no-repeat;
     
 }
 .dream{
-    background-image: url(/img/dream-bg.png);
+    background-image: url('./img/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right;
     
 }
 .experience{
-    background-image: url(/img/exp-bg.png);
+    background-image: url('./img/exp-bg.png');
     background-repeat: no-repeat;
     background-position: left;
     
