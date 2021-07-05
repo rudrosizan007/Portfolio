@@ -8,10 +8,12 @@ h1{
 
 }
 h2{
-    font-size: 60px;
+    font-size: 40px;
     color:rgb(72, 112, 241);
 }
-
+h3{
+    color: salmon;
+}
 .text-highlight{
     color: orangered;
     font-family: yomogi,sans-serif;
@@ -48,9 +50,28 @@ h2{
     
 }
 .experience{
-    margin-left: 50px;
+    background-image: url(/img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
 }
 .card{
     display: flex;
     
+}
+.box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px grey;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,red);
+    border-image-slice: 1 ;
+}
+footer p{
+    text-align: center;
 }
