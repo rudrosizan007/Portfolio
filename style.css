@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: poppins,sans-serif;
+}
+h1{
+    font-family: 'Great Vibes', cursive,sans-serif;
+    font-size: 50px;
+
+}
+h2{
+    font-size: 60px;
+    color:rgb(72, 112, 241);
+}
+
+.text-highlight{
+    color: orangered;
+    font-family: yomogi,sans-serif;
+} 
+.flex-container{
+    display: flex;
+    margin-bottom: 200px;
+}
+.width{
+    width: 50%;
+    padding-left: 10%;
+}
+.width img{
+    width: 100%;
+    margin-top: 80px;
+}
+.link-button{
+    text-decoration: none;
+    background:linear-gradient(orangered, orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.top{
+    background-image: url(/img/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.dream{
+    background-image: url(/img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.experience{
+    margin-left: 50px;
+}
+.card{
+    display: flex;
+    
+}
